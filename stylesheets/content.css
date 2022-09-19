@@ -1,0 +1,16 @@
+ol {
+list-style: none;
+counter-reset: li
+}
+li:before {
+  counter-increment: li
+  content: counters(li, ".") "."
+}
+.pro {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #000000;
+}
+.ramka {
+
+}
